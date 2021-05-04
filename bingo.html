@@ -85,7 +85,12 @@ display: flex;
         cnt+=1
       }
       if(cnt==5){
-        // console.log("두둥!")
+        for(j=1;j<=5;j++){
+          document.images["table" + j + j].src = 'red.png';
+          if (check[j][j]!=3){
+            check[j][j]=2
+          }
+        }
       }
     }
     cnt=0
