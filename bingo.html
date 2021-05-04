@@ -86,7 +86,6 @@ display: flex;
       }
       if(cnt==5){
         for(j=1;j<=5;j++){
-          console.log("table" + j + j);
           document.images["table" + j + j].src = 'red.png';
           if (check[j][j]!=3){
             check[j][j]=2
@@ -101,7 +100,6 @@ display: flex;
       }
       if(cnt==5){
         for(j=1;j<=5;j++){
-          console.log("table" + j + (6-j));
           document.images["table" + j + (6-j)].src = 'red.png';
           if (check[j][6-j]!=3){
             check[j][6-j]=2
