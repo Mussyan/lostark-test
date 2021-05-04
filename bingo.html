@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>삥뽕빙고 - improved by 뇌절4범</title>
+	<title>삥뽕빙고 - 뇌절4범ver</title>
 </head>
 <style>
   .tb {
@@ -77,6 +77,16 @@ display: flex;
 						check[j][i]=2
 					}
         }
+      }
+    }
+    for(i=1;i<=5;i++){
+      cnt=0
+      console.log("대각")
+      if(check[i][j]>=1){
+        cnt+=1
+      }
+      if(cnt==5){
+        alert("두둥!")
       }
     }
   }
